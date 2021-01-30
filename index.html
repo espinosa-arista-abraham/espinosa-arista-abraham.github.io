@@ -1,1 +1,38 @@
-Hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Console output</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <section class="title-container">
+            <h1>
+                Console output
+            </h1>
+            <sub>A simple console output display in the html view</sub>
+        </section>
+        <section class="input-container">
+            <article>            
+                <label>Set the function needed</label>
+                <input type="text" placeholder="Example: btoa" id="inputFunction">
+            </article>
+            <article>
+                <label>Set the input for the function</label>
+                <input type="text" placeholder="Example: some text" id="inputValue">
+            </article>
+        </section>
+        <section class="button-container">
+            <button type="button" value="Execute" id="execute">Execute!</button>
+        </section>
+        <section class="result-container">
+            <article>
+                <pre id="result"></pre>
+            </article>
+        </section>
+    </div>
+<script src="./index.js"></script>
+</body>
+</html>
